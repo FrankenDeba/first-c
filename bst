@@ -49,8 +49,13 @@ inorder(tree->right);
 if(max>tree->data)
 {
 max=tree->data;
-if(2nd_max
-hn
+if((2nd_max>tree->data)&&(tree->data<max)
+{
+2nd_max=tree->data;
+}
+}
+}
+}
 
 
 
